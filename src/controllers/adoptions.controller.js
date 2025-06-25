@@ -1,6 +1,9 @@
 const adoptionsMock = [
-    { _id: '1', user: 'User A', pet: 'Pet X' },
-    { _id: '2', user: 'User B', pet: 'Pet Y' }
+    { _id: '1', user: 'Usuario1', pet: 'Mascota1' },
+    { _id: '2', user: 'Usuario2', pet: 'Mascota2' },
+    { _id: '3', user: 'Usuario3', pet: 'Mascota3' },
+    { _id: '4', user: 'Usuario4', pet: 'Mascota4' },
+    { _id: '5', user: 'Usuario5', pet: 'Mascota5' },
 ];
 
 const adoptionsController = {

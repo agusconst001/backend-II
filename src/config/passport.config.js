@@ -14,7 +14,7 @@ passport.use(
         async (req, email, password, done) => {
             try {
                 const exist = await UserModel.findOne({ email });
-                if (exist) return done(null, false, { message: 'Usuario ya existe' });
+                if (exist) return done(null, false, { message: 'Usuario existente' });
 
                 const newCart = await CartModel.create({ products: [] });
 
